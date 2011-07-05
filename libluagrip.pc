@@ -1,0 +1,10 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: LuaGrip
+Description: Lua Wrapper for C++
+Version: 1.0.1
+Cflags: -I${includedir}/luagrip
+Libs: -L${libdir} -lluagrip
+
